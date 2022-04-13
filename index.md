@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mgdh123/mgdh123.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>芒果导航最新地址发布页-芒果导航</title>
+  <meta http-equiv="Keywords" content="芒果导航最新地址,芒果导航">
+<meta http-equiv="Description" content="芒果导航收录各类精品福利站点，这里可获取芒果导航最新地址。">
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-1. Numbered
-2. List
+<link href="css/css.css" rel="stylesheet" type="text/css">
 
-**Bold** and _Italic_ and `Code` text
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/uaredirect.js" type="text/javascript"></script>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+  <script type="text/javascript">
+function checkurl(){
+var strU = "https";
+strU += "://";
+strU += "";
+var strU2 =  "xhydh123.github.io/111.html"; 
+strU2 = strU2.replace(/a@b/g,'.');
+strU += strU2; 
+window.location.href=strU;}
+</script>
 
-### Jekyll Themes
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mgdh123/mgdh123.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<body onLoad="showLeftTime()">
+<div class="home">
+	<div class="section">
+		
+		
+		
+		<div class="shadow-bg"></div>
+		<div class="shadow"></div>
+		
+		
+		
+		<div class="container">
 
-### Support or Contact
+		
+		<p class="f16">欢迎进入芒果，本站只收录精品，致力打造第二品牌。</p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <div class="golink">  <a id="baidu" href="https://www.baidu.com" onclick="checkurl();return false;" class="btn btn-lg bg-green m-t-10 gray" target="_blank">立即访问</a></div>
+
+	
+		
+		<div class="foot"><span id="show"></span> &copy;芒果导航版权所有<div style="display:none"></div>	</div>
+		</div>
+		<div class="vertical-align-hiddendiv "></div>
+	</div>
+</div>
+	
+	
+	
+	<div style="display:none">
+
+	</div>
+	
+</body>
+</html>
