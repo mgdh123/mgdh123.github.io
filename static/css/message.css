@@ -1,0 +1,315 @@
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+.webbox_title {
+    clear: both;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+.webbox_title span {
+    background: #b352ef none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 900;
+    height: 32px;
+    line-height: 34px;
+    text-align: center;
+    max-width: 150px;
+    padding: 10px 40px;
+}
+.webbox_title p {
+    border-bottom: 32px solid transparent;
+    border-left: 32px solid #FE7B2D;
+    border-top: 32px solid transparent;
+    height: 0;
+    left: 150px;
+    position: absolute;
+    width: 0;
+}
+.webbox_title .apply {
+    color: #999;
+    font-size: 12px;
+    line-height: 32px;
+    margin-right: 15px;
+}
+.webbox_title .apply:hover {
+    color: #f00;
+}
+.webbox_list {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    height: auto;
+    padding: 20px;
+    width: 1008px;
+}
+.webbox_list li {
+    float: left;
+    height: 32px;
+    width: 144px;
+}
+.webbox_list li a {
+    color: #06c;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    width: 144px;
+}
+.webbox_list li img {
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
+.webbox_list li:hover a {
+    color: #fff;
+    transition: color 0.1s ease 0s;
+}
+.webbox_list li:hover {
+    background-color: #ec6a6a;
+    transition: background-color 0.4s ease 0s;
+}
+.comment {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c6d9e7;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.cmt_msg {
+    font-family: "Microsoft YaHei";
+    padding: 15px;
+}
+.cmt_msg .cmt_form {
+    margin-bottom: 10px;
+}
+.cmt_msg .face_wrap img {
+    max-height: 50px;
+    max-width: 50px;
+}
+.cmt_msg .input_wrap {
+    padding-left: 10px;
+    position: relative;
+    width: 91%;
+}
+.cmt_msg .cmt_wrap .input_wrap {
+    width: 98%;
+}
+.cmt_msg .input_wrap textarea {
+    border-radius: 3px 3px 0 0;
+    border-style:solid;
+    border-width: 1px;
+    height: 53px;
+    line-height: 1.4;
+    overflow: auto;
+    padding-left: 1%;
+    padding-top: 8px;
+    width: 99%;
+}
+.cmt_msg .input_wrap p {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-color: rgb(187, 187, 187);
+    border-radius: 0 0 3px 3px;
+    border-style: dotted solid solid;
+    border-width: 1px;
+    color: rgb(206, 206, 206);
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+}
+.cmt_msg .expression {
+    background: rgba(0, 0, 0, 0) url("../images/emotion2.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    margin: 6px 0 0 6px;
+    width: 18px;
+}
+.cmt_msg .expression:hover {
+    background: rgba(0, 0, 0, 0) url("../images/emotion2.png") no-repeat scroll 0 -16px;
+}
+.cmt_msg .remaining {
+    font-size: 14px;
+    padding-right: 10px;
+}
+.cmt_msg .smt_wrap {
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 8px;
+    width: 100%;
+}
+.cmt_msg .smt_wrap span {
+    color: rgb(66, 66, 66);
+}
+.cmt_msg .smt_wrap .total {
+    font-size: 14px;
+    font-weight: 600;
+}
+.cmt_msg .smt_wrap span span {
+    margin: 0;
+    padding: 0;
+}
+.cmt_msg .smt_wrap span a {
+    color: rgb(49, 139, 183);
+    margin: 0 0 0 8px;
+}
+.cmt_msg .smt_wrap .cmt_post {
+    background-color:#b352ef;
+    border: medium none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 7px;
+    text-align: center;
+    vertical-align: middle;
+    width: 77px;
+}
+.cmt_msg .smt_wrap .cmt_text {
+    background: rgb(251, 251, 251) none repeat scroll 0 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 7px;
+    padding: 0 8px;
+    vertical-align: middle;
+    width: 50px;
+}
+.cmt_msg .smt_wrap .cmt_verify {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    width: 80px;
+}
+.cmt_msg .smt_wrap input:hover {
+    background-position: -1px -603px;
+}
+.cmt_msg .sort_wrap {
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding-bottom: 2px;
+}
+.cmt_msg .sort_wrap a:hover {
+    text-decoration: none;
+}
+.cmt_msg .sort_wrap .current {
+    border-bottom: 2px solid rgb(43, 140, 230);
+    color: rgb(49, 139, 183);
+    font-weight: bold;
+}
+.cmt_msg .cmt_item {
+    border-bottom: 1px dotted rgb(215, 215, 215);
+    color: rgb(153, 153, 153);
+    padding: 15px 0;
+    width: 100%;
+}
+.cmt_msg .item_con {
+    padding-left: 2%;
+    width: 90%;
+}
+.cmt_msg .item_con p {
+    margin-bottom: 8px;
+}
+.cmt_msg .item_con a {
+    color: rgb(153, 153, 153);
+}
+.cmt_msg .item_con a:hover {
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+.cmt_msg .item_con .name {
+    color: rgb(43, 140, 230);
+}
+.cmt_msg .item_con .name:hover {
+    color: rgb(1, 106, 159);
+    text-decoration: none;
+}
+.cmt_msg .item_con .con {
+    color: rgb(51, 51, 51);
+    line-height: 20px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.cmt_msg .item_con .bottom li {
+    float: left;
+    height: 16px;
+    line-height: 15px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.cmt_msg .item_con .bottom .reply {
+    background: rgba(0, 0, 0, 0) url("../images/rpy2.png") no-repeat scroll 0 0;
+    color: rgb(153, 153, 153);
+    display: block;
+    font-size: 11px;
+    text-indent: 19px;
+}
+.cmt_msg .item_con .bottom .reply:hover {
+    color: rgb(1, 106, 159);
+    text-decoration: none;
+}
+.cmt_msg .item_con .bottom .bdshare_t {
+    margin-top: -5px;
+}
+.cmt_msg .item_con .bottom .bds_more {
+    padding-top: 5px;
+}
+.cmt_msg .inner {
+    background-color: rgb(254, 254, 241);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 3px;
+    width: auto;
+}
+.cmt_msg .inner .top {
+    margin: 8px 0 8px 3px;
+}
+.cmt_msg .inner .con {
+    margin: 5px 0 5px 3px;
+}
+.cmt_msg .inner .bottom {
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+.cmt_msg .mid_cmt_item {
+    border-top: medium none;
+    margin-top: 3px;
+}
+.cmt_msg .pages {
+    margin-top: 15px;
+}
+a:link{ 
+    text-decoration:none;
+} 
+
+a:hover { 
+    color:#FFF;
+    text-decoration:none;
+}
+a:active{
+    color:#FFF;
+    text-decoration:none;
+}
+
+@media (max-width: 780px) {
+    .face {display: none;}
+    .comment {padding: 0px;}
+    .cmt_msg {padding: 3px;}
+}
